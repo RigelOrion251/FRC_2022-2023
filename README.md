@@ -59,7 +59,7 @@ VS Code Extensions - WPILib extensions for robot code development in VS Code
 
 Continue to the next page in the instructions and select the "Visual Studio Code Basics" hyperlink.
 
-# Programing Basics
+# Programming Basics
 
 The "Visual Studio Code Basics" hyperlink redirects to a webpage called "Visual Studio Code Basics and WPILib Extension" (https://docs.wpilib.org/en/stable/docs/software/vscode-overview/vscode-basics.html#visual-studio-code-basics-and-the-wpilib-extension), which is part of the "Programming Basics" Tutorial.
 
