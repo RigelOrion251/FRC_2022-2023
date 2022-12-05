@@ -5,14 +5,14 @@
 
 Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. This Repositiory Contains the steps for installing the Coding Enviroment and loading in last year's FRC Robot Code.
 
-- [Preliminaries with Git](#wpilib-project)
-- [Robot Home](#building-wpilib)
-- [Zero to Robot](#building-wpilib)
-- [Programing Basics](#building-wpilib)
-- [Creating a New Robot Project](#building-wpilib)
-- [3rd Party Libraries](#building-wpilib)
-- [Copy Last Years Robot Code](#building-wpilib)
-- [Git Update](#building-wpilib)
+- [Preliminaries with Git](#preliminaries-with-git)
+- [Robot Home](#robot-home)
+- [Zero to Robot](#zero-to-robot)
+- [Programming Basics](#programming-basics)
+- [Creating a New Robot Project](#creating-a-new-robot-project)
+- [3rd Party Libraries](#3rd-party-libraries)
+- [Copy Last Years Robot Code](#copy-last-years-robot-code)
+- [Git Update](#git-update)
 
 
 # Preliminaries with Git
