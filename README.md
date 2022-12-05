@@ -13,32 +13,20 @@ Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. T
 - [3rd Party Libraries](#building-wpilib)
 - [Copy Last Years Robot Code](#building-wpilib)
 - [Git Update](#building-wpilib)
-- [Building WPILib](#building-wpilib)
-  - [Requirements](#requirements)
-  - [Setup](#setup)
-  - [Building](#building)
-    - [Faster builds](#faster-builds)
-    - [Using Development Builds](#using-development-builds)
-    - [Custom toolchain location](#custom-toolchain-location)
-    - [Formatting/Linting](#formattinglinting)
-    - [CMake](#cmake)
-  - [Publishing](#publishing)
-  - [Structure and Organization](#structure-and-organization)
-- [Contributing to WPILib](#contributing-to-wpilib)
 
 
 # Preliminaries with Git
 
 Before cloning this repository locally, note that is should be placed in the following location on your Windows computer:
-"<Drive Letter>:\Users\Public\Documents\GitHub\FRC_2022-2023"
+"<Drive_Letter>:\Users\Public\Documents\GitHub\FRC_2022-2023"
 If it was not placed in this location, then: ether remove the local repository and clone it again to the above location, or make note of the new location and adjust the following instructions accordingly.
 
 
 # Robot Home
 
-In this repository is a folder called "2022-2023_Robot_Code".  All Robot code projects for the 2022-2023 year will be created in this folder.  Each will have it's on folder, which will be named in a manner the provide a basic idea of what the code does.
+In this repository is a folder called "Robot_Code".  All Robot code projects for the 2022-2023 year will be created in this folder.  Each will have it's own folder, which will be named in a manner that provides a basic idea of what the code does.
 
-Last year's robot code will be in the folder "2022-2023_Robot_Code/Last_Year.
+Last year's robot code will be in the folder "Robot_Code/Last_Year.
 
 # Zero to Robot
 
@@ -77,7 +65,7 @@ Language:      java,
 Base:          Timed Robot
 
 Other item on the creator page are filled in as:
-Base Folder:  <Drive Letter>/Users/Public/Documents/GitHub/FRC_2022-2023 
+Base Folder:  <Drive Letter>/Users/Public/Documents/GitHub/FRC_2022-2023/Robot_Code 
 Use the "Select a new project folder" button to graphically select the Base Folder
 
 Project Name: Last_Year,
@@ -103,7 +91,7 @@ Add the Rev library and the Phenoix Library to your project by:
 
 1. Open a terminal in VS Code from the "View > Terminal" tab.
 
-2. Navigate the directory "<Drive Letter>:\Users\Public\Documents\GitHub\FRC_2022-2023\2022-2023_Robot\FirstRobot"
+2. Navigate the directory "<Drive Letter>:\Users\Public\Documents\GitHub\FRC_2022-2023\Robot_Code\Last_Year"
 
 3. Give the following commands at the terminal command prompt:
 
@@ -121,7 +109,7 @@ WPILib-New-Commands
 
 # Copy Last Years Robot Code
 
-To put last years code into the project, open 2 directory folders.  Navigate to a flash drive contains last year' "robot" directory.  Navigate the Project's "robot" directory (<Drive_Letter>:\Users\Public\Documents\GitHub\FRC_2022-2023\2022-2023_Robot\FirstRobot\src\main\java\frc\robot).  Each directory will have two files:
+To put last years code into the project, open 2 directory folders.  Navigate to a flash drive contains last year' "robot" directory.  Navigate the Project's "robot" directory (<Drive_Letter>:\Users\Public\Documents\GitHub\FRC_2022-2023\Robot_Code\Last_Year\src\main\java\frc\robot).  Each directory will have two files:
 
 Main.java
 Robot.java
