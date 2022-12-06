@@ -18,11 +18,11 @@ Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. T
 
 # Preliminaries with Git
 
-First of all I'm assuming that you are reading README.md file from the "main" branch on the LIGHTSABERS Web Gethub site (i.e. the remote Github repositiory).  This repository should not be cloned from the "main" branch.  The first thing to do is to create a new branch by clicking on the "branch" icon at the top of this repository.  This will bring up a "branch" page and on the right side of this page is a green button called "New Branch".  Click on this button, type "<yourname>Dev" in the Branch Name, makesure that the source is the "main" branch, and then click "Create Branch".  The resulting "Overview" page will then show that there is an Active branch called "<yourname>Dev".  You can click on the "<yourname>Dev" branch and you will see that it has the same files as were in the new branch.
-At this point, I will assume that you are reading this README.md file from the "<yourname>Dev" branch.  You are now ready to setup your computer to receive your local repository of the FRC_2022-2023 Code.
+First of all I'm assuming that you are reading README.md file from the "main" branch on the LIGHTSABERS Web Gethub site (i.e. the remote Github repositiory).  This repository should not be cloned from the "main" branch.  The first thing to do is to create a new branch by clicking on the "branch" icon at the top of this repository.  This will bring up a "branch" page and on the right side of this page is a green button called "New Branch".  Click on this button, type "{yourname}Dev" in the Branch Name, makesure that the source is the "main" branch, and then click "Create Branch".  The resulting "Overview" page will then show that there is an Active branch called "<yourname>Dev".  You can click on the "{yourname}Dev" branch and you will see that it has the same files as were in the new branch.
+At this point, I will assume that you are reading this README.md file from the "{yourname}Dev" branch.  You are now ready to setup your computer to receive your local repository of the FRC_2022-2023 Code.
 
 To avoid having this repository proliferate on a single computer, it will be stored in the Public User's workspace.  Create a new storage folder on Windows computer to act as your local Git repository for the FRC 2022-2023 Code:
-"<Drive_Letter>:\Users\Public\Documents\GitHub\FRC_2022-2023"
+"{Drive_Letter}:\Users\Public\Documents\GitHub\FRC_2022-2023"
 Note: if this location already exists you must cleanup the computer by deleting the GitHub directory.
 
 # Robot Home
@@ -52,7 +52,7 @@ Continue to the next page in the instructions and select the "Visual Studio Code
 
 # GitHub Revisited
 
-Near the top of this repository is a green button called "Code" next to the word "About".  Left click on "Code" and select the "Open with GitHub Desktop" option.  If the GitHub Desktop doesn't exist it will download it and ask you to log-in.  If you don't have an account, create one for free and repeat the process of left clicking on "Code" and logging-in to the GitHub Desktop.  When GitHub Desktop opens, then it will default to looking at the "main" branch.  Switch it to the "<yourname>Deb" branch.
+Near the top of this repository is a green button called "Code" next to the word "About".  Left click on "Code" and select the "Open with GitHub Desktop" option.  If the GitHub Desktop doesn't exist it will download it and ask you to log-in.  If you don't have an account, create one for free and repeat the process of left clicking on "Code" and logging-in to the GitHub Desktop.  When GitHub Desktop opens, then it will default to looking at the "main" branch.  Switch it to the "{yourname}Dev" branch.
 
 At this point, you can open this repositiory in Visual Studio Code by finding "Open Repository in External Editor" option on GitHub Desktop and selecting the option for "Open in Visual Studio Code".  Now you should open this README.md file in Visual Studio Code. 
 
