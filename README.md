@@ -18,11 +18,12 @@ Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. T
 
 # Preliminaries with Git
 
-First of all I'm assuming that you are reading README.md file from the "main" branch on the LIGHTSABERS Web Gethub site (i.e. the remote Github repositiory).  This repository should not be cloned from the "main" branch.  The first thing to do is to create a new branch by clicking on the "branch" icon at the top of this repository.  This will bring up a "branch" page and on the right side of this page is a green button called "New Branch".  Click on this button, type "{yourname}Dev" in the Branch Name, makesure that the source is the "main" branch, and then click "Create Branch".  The resulting "Overview" page will then show that there is an Active branch called "<yourname>Dev".  You can click on the "{yourname}Dev" branch and you will see that it has the same files as were in the new branch.
-At this point, I will assume that you are reading this README.md file from the "{yourname}Dev" branch.  You are now ready to setup your computer to receive your local repository of the FRC_2022-2023 Code.
-
-To avoid having this repository proliferate on a single computer, it will be stored in the Public User's workspace.  Create a new storage folder on Windows computer to act as your local Git repository for the FRC 2022-2023 Code:
+First of all, I'm assuming that you are reading this README.md file from the "main" branch on the LIGHTSABERS Web-based GetHub site (i.e. the remote Github repositiory).  This repository should not be cloned from the "main" branch.  The first thing to do is to create a new branch by clicking on the "branch" icon at the top of this repository.  This will bring up a "branch" page and on the right side of this page is a green button called "New Branch".  Click on this button, type "{yourname}Dev" in the Branch Name, makesure that the source is the "main" branch, and then click "Create Branch".  The resulting "Overview" page will then show that there is an Active branch called "<yourname>Dev".  You can click on the "{yourname}Dev" branch and you will see that it has the same files as were in the new branch.
+  
+At this point, I will assume that you are reading this README.md file from the "{yourname}Dev" branch.  You are now ready to setup your computer to receive your local repository of the FRC_2022-2023 Code.  To avoid having this repository proliferate on your computer, it will be stored in the Public User's workspace.  Create a new storage folder on your Windows computer to act as your local Git repository for the FRC 2022-2023 Code:
+  
 "{Drive_Letter}:\Users\Public\Documents\GitHub\FRC_2022-2023"
+
 Note: if this location already exists you must cleanup the computer by deleting the GitHub directory.
 
 # Robot Home
@@ -34,6 +35,7 @@ Last year's robot code will be in the folder "Robot_Code/Last_Year.
 # Zero to Robot
 
 Starting with Step 2 of the Zero to Robot instructions (https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) install the WPILib libaries.  When the instructions on this web page have been completed,the following will be installed:
+  
 Visual Studio Code - The supported IDE for 2019 and later robot code development. The offline installer sets up a separate copy of VS Code for WPILib development, even if you already have VS Code on your machine. This is done because some of the settings that make the WPILib setup work may break existing workflows if you use VS Code for other projects.
 
 C++ Compiler - The toolchains for building C++ code for the roboRIO
@@ -67,14 +69,14 @@ Read this page to get familiar with how to call the WPILib command from the comm
   
 Eventually, a section called "Creating a New WPILib Project" is found toward the middle of the the Robot Program Page (https://docs.wpilib.org/en/stable/docs/software/vscode-overview/creating-robot-program.html).  Perform the tasks stated in Visual Studio Code. 
 
-Will doing these tasks a "New Project Creator Window" will pop up.  Select folling on the first row:
+While doing these tasks, a "New Project Creator Window" will pop up.  Select the following on the first row:
 
 Project Type:  Template
 Language:      java,
 Base:          Timed Robot
 
 Other item on the creator page are filled in as:
-Base Folder:  <Drive Letter>/Users/Public/Documents/GitHub/FRC_2022-2023/Robot_Code 
+Base Folder:  {Drive Letter}:/Users/Public/Documents/GitHub/FRC_2022-2023/Robot_Code 
 Use the "Select a new project folder" button to graphically select the Base Folder
 
 Project Name: Last_Year,
@@ -88,7 +90,7 @@ After creating the project in Visual Studio Code, continue reading to the webpag
 
 # 3rd Party Libraries
 
-At this point in the process you should be on the 3rd Party Libraries Page of the Web instructions(https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html). Read down to "Managing VS Code Libraries".  In VS Code, use the "Manage Vendor Libraries > Manage Current Libraries" to show you that:
+At this point in the process, you should be on the 3rd Party Libraries Page of the Web instructions(https://docs.wpilib.org/en/stable/docs/software/vscode-overview/3rd-party-libraries.html). Read down to "Managing VS Code Libraries".  In VS Code, use the "Manage Vendor Libraries > Manage Current Libraries" to show you that:
 
 WPILib-New-Commands
 
