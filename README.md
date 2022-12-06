@@ -22,7 +22,7 @@ First of all, I'm assuming that you are reading this README.md file from the "ma
   
 At this point, I will assume that you are reading this README.md file from the "{yourname}Dev" branch.  You are now ready to setup your computer to receive your local repository of the FRC_2022-2023 Code.  To avoid having this repository proliferate on your computer, it will be stored in the Public User's workspace.  Create a new storage folder on your Windows computer to act as your local Git repository for the FRC 2022-2023 Code:
   
-"{Drive_Letter}:\Users\Public\Documents\GitHub\FRC_2022-2023"
+"{Drive_Letter}:\Users\Public\GitHub\FRC_2022-2023"
 
 Note: if this location already exists you must cleanup the computer by deleting the GitHub directory.
 
@@ -34,7 +34,7 @@ Last year's robot code will be in the folder "Robot_Code/Last_Year.
 
 # Zero to Robot
 
-Starting with Step 2 of the Zero to Robot instructions (https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) install the WPILib libaries.  When the instructions on this web page have been completed,the following will be installed:
+Starting with Step 2 of the Zero to Robot instructions (https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) install the WPILib libaries.  Since we are programming Java and we are not building the WPILib libraries, it is not necessary to perform the steps for the "Additional C++ Installation for Simulation".  When the instructions on this web page have been completed, the following will be installed:
   
 Visual Studio Code - The supported IDE for 2019 and later robot code development. The offline installer sets up a separate copy of VS Code for WPILib development, even if you already have VS Code on your machine. This is done because some of the settings that make the WPILib setup work may break existing workflows if you use VS Code for other projects.
 
@@ -76,7 +76,7 @@ Language:      java,
 Base:          Timed Robot
 
 Other item on the creator page are filled in as:
-Base Folder:  {Drive Letter}:/Users/Public/Documents/GitHub/FRC_2022-2023/Robot_Code 
+Base Folder:  {Drive Letter}:/Users/Public/GitHub/FRC_2022-2023/Robot_Code 
 Use the "Select a new project folder" button to graphically select the Base Folder
 
 Project Name: Last_Year,
@@ -120,12 +120,17 @@ WPILib-New-Commands
 
 # Copy Last Years Robot Code
 
-To put last years code into the project, open 2 directory folders.  Navigate to a flash drive contains last year' "robot" directory.  Navigate the Project's "robot" directory (<Drive_Letter>:\Users\Public\Documents\GitHub\FRC_2022-2023\Robot_Code\Last_Year\src\main\java\frc\robot).  Each directory will have two files:
+To put last years code into the project.  Last year's robot code in isn the Robot_Code directory.  Open the file Robot.java and select "Raw" button in the upper right.  Right click on the "Raw" display, select "Save as", navigate to the Project's "robot" directory,
+  
+  {Drive_Letter}\Users\Public\GitHub\FRC_2022-2023\Robot_Code\Last_Year\src\main\java\frc\robot
+
+Type in the name Robot.java, and select Ok to save it over the current Robot.java file.
+In the above directory, there will now be two files:
 
 Main.java
 Robot.java
 
-Replace the Project's "Robot.java" file with Last Year's "Robot.java" file. 
+The "Robot.java" file contains Last Year's "Robot.java" file. 
 
 # Git Update
 
