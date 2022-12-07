@@ -71,7 +71,8 @@ This repository now exists locally on your computer at:
 
 "{Drive_Letter}:\Users\Public\GitHub\FRC_2022-2023"
 
-Any files that you add or modify in this directory are registered with GitHub, and any changes that are different from the Remote Reportory on the Web are shown in GitHub Desktop.
+Any files that you add or modify in this directory are registered with GitHub, and any changes that are different from the Remote Repository on the Web are shown in GitHub Desktop.
+![image](https://user-images.githubusercontent.com/54441806/206082745-758bfe6e-c9ea-4745-9dae-d1e5575a19e8.png)
 
 Lets test this branch.
 
