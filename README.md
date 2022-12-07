@@ -29,7 +29,7 @@ At this point, I will assume that you are reading this README.md file from the "
   
 "{Drive_Letter}:\Users\Public\GitHub\FRC_2022-2023"
 
-Note: if this location already exists you must cleanup the computer by deleting the GitHub directory.
+Note: if this location already exists you must cleanup the computer.  If this is the case, follow the instructions at [Zero to Robot: Uninstalling](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html#uninstalling).
 
 # Robot Home
 
