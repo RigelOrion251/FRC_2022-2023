@@ -59,7 +59,10 @@ Continue to the next page in the instructions and select the "Visual Studio Code
 
 # GitHub Revisited
 
-Near the top of this repository is a green button called "Code" next to the word "About".  Left click on "Code" and select the "Open with GitHub Desktop" option.  If the GitHub Desktop doesn't exist it will download it and ask you to log-in.  If you don't have an account, create one for free and repeat the process of left clicking on "Code" and logging-in to the GitHub Desktop.  When GitHub Desktop opens, then it will default to looking at the "main" branch.  Switch it to the "{yourname}Dev" branch.
+Near the top of this repository is a green button called "Code" next to the word "About".  Left click on "Code" and select the "Open with GitHub Desktop" option.  If the GitHub Desktop doesn't exist it will download it and ask you to log-in.  If you don't have an account, create one for free and repeat the process of left clicking on "Code" and logging-in to the GitHub Desktop.  
+![image](https://user-images.githubusercontent.com/54441806/206072601-60adb60e-19bf-4245-85d4-27e3497e33dd.png)
+When GitHub Desktop opens, then it will default to looking at the "main" branch.  Switch it to the "{yourname}Dev" branch.
+![image](https://user-images.githubusercontent.com/54441806/206074279-9abeab05-935d-456a-8e2c-fa2f417320b7.png)
 
 At this point, you can open this repositiory in Visual Studio Code by finding "Open Repository in External Editor" option on GitHub Desktop and selecting the option for "Open in Visual Studio Code".  Now you should open this README.md file in Visual Studio Code. 
 
