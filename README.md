@@ -77,7 +77,7 @@ Any files that you add or modify in this directory (the local repository) are re
 
 To backup the changes to your local repository to the Remote Repository on the Web, click on the "push" button a the top of the GitHub Window.
 
-![image](https://user-images.githubusercontent.com/54441806/206083797-7d6ccd87-7144-4281-b731-76f49e33e524.png)
+![image](https://user-images.githubusercontent.com/54441806/206085043-25b620a6-297c-477d-adf6-412e7a08d93c.png)
 
 Now you can now create or open Robot project files in the local repository using the Visual Studio Code editor and when you get all done you can commit them to Git storage and back them up to the Git remote storage on the Web. 
 
