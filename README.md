@@ -71,16 +71,15 @@ This repository now exists locally on your computer at:
 
 "{Drive_Letter}:\Users\Public\GitHub\FRC_2022-2023"
 
-Any files that you add or modify in this directory are registered with GitHub, and any changes that are different from the Remote Repository on the Web are shown in GitHub Desktop.
+Any files that you add or modify in this directory (the local repository) are registered with GitHub, and any changes that are different from the Remote Repository on the Web are shown in the GitHub Desktop.  For example: In the directory above, if you open the README.md file in a text editor (ex. wordpad), change the spelling of a word, and then save the file back to the repository, the GitHub Desktop will change to look like this:
+
 ![image](https://user-images.githubusercontent.com/54441806/206082745-758bfe6e-c9ea-4745-9dae-d1e5575a19e8.png)
 
-Lets test this branch.
+To backup the changes to your local repository to the Remote Repository on the Web, click on the "push" button a the top of the GitHub Window.
 
-Lets test it again.
+![image](https://user-images.githubusercontent.com/54441806/206083797-7d6ccd87-7144-4281-b731-76f49e33e524.png)
 
-Lets test it a third time.
-  
-At this point, you can open this repositiory in Visual Studio Code by finding "Open Repository in External Editor" option on GitHub Desktop and selecting the option for "Open in Visual Studio Code".  Now you should open this README.md file in Visual Studio Code. 
+Now you can now create or open Robot project files in the local repository using the Visual Studio Code editor and when you get all done you can commit them to Git storage and back them up to the Git remote storage on the Web. 
 
 # Programming Basics
 
